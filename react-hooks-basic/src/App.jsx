@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.scss'
+import ColorBox from './components/ColorBox'
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
 		<div className='app'>
-			<h1>Welcome to React hook</h1>
+			<h1>Welcome to React hooks</h1>
+			<ColorBox />
 		</div>
 	)
 }
