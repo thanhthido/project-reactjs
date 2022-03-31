@@ -1,15 +1,13 @@
-import { useState } from "react"
-import logo from "./logo.svg"
-// import "./App.css"
-// import TodoFeature from "./components/features/Todo"
-import AlbumFeature from "./features/Album"
-// import AlbumFeature from "./components/features/Album"
+import react from "react"
+import TodoFeature from "./features/Todo"
 
 function App() {
 	return (
 		<div className="App">
-			{/* <TodoFeature /> */}
-			<AlbumFeature />
+			<TodoFeature />
+			{/* <AlbumFeature /> */}
+			{/* {<Counter />} */}
+			{/* {<ColorBox />} */}
 		</div>
 	)
 }
